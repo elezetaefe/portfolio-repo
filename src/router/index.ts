@@ -1,4 +1,9 @@
-import Home from "@/pages/home/Home.vue";
+import AboutMe from "@/pages/aboutMe/aboutMe.vue";
+import Detail from "@/pages/projects/Detail.vue";
+import HomeLZF from "@/pages/home/HomeLZF.vue";
+import Layout from "@/pages/projects/Layout.vue";
+import Projects from "@/pages/projects/Projects.vue";
+
 import { createRouter, createWebHashHistory } from "vue-router";
 
 
@@ -8,9 +13,30 @@ export const router = createRouter({
 
   routes: [
     {
-      path: '/',
-      name: 'home',
-      component: Home
+      path: '/', // #/
+      name: 'HomeLZF',
+      component: HomeLZF
+    },
+    {
+      path: '/aboutMe', // #/aboutMe
+      name: 'aboutMe',
+      component: AboutMe
+    },
+    {
+      path: '/projects',
+      component: Layout,
+      children: [
+        {
+          path: '', // #/homeLZF/projects
+          name: 'my-projects',
+          component: Projects
+        },
+        {
+          path: ':id', // :id es cualquier cosa, es una ruta variable
+          name: 'my-projects-detail',
+          component: Detail
+        },
+      ]
     },
     {
       path: '/:patchMatch(.*)',
