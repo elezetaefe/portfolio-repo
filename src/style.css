@@ -1,6 +1,11 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+body {
+  font-family:"Space Grotesk", sans-serif;
+  font-weight: 500;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
