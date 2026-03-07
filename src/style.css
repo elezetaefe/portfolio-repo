@@ -6,6 +6,11 @@ body {
   font-weight: 500;
 }
 
+header {
+  top: 0;
+  position: sticky;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {

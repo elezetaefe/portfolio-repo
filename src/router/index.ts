@@ -3,6 +3,7 @@ import Detail from "@/pages/projects/Detail.vue";
 import HomeLZF from "@/pages/home/HomeLZF.vue";
 import Layout from "@/pages/projects/Layout.vue";
 import Projects from "@/pages/projects/Projects.vue";
+import Contact from "@/pages/contact/Contact.vue";
 
 import { createRouter, createWebHashHistory } from "vue-router";
 
@@ -21,6 +22,11 @@ export const router = createRouter({
       path: '/aboutMe', // #/aboutMe
       name: 'aboutMe',
       component: AboutMe
+    },
+    {
+      path: '/Contact', // #/Contact
+      name: 'contacto',
+      component: Contact
     },
     {
       path: '/projects',

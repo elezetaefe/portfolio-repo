@@ -3,11 +3,10 @@
 
 </script>
 
-
 <template>
-   
-   <h1>Project's page</h1>
-
+    <div>
+        <h1>Contact page</h1>
+    </div>
 </template>
 
 
