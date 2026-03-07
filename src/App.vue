@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router';
 import LogoLZF from '@/components/logoLZF.vue';
+import LogoLZFneg from './components/logoLZFneg.vue';
 
 
 </script>
@@ -45,11 +46,16 @@ import LogoLZF from '@/components/logoLZF.vue';
       <RouterView />
     </main>
 
-    <footer class="bg-[#a6c89a] w-full">
+    <footer class="bg-[#48784bdf] w-full text-center">
 
-      <LogoLZF estilus="w-[15rem] pr-10"/>
-      <p class="text-">
-        © 2026 Laura Zaragoza Ferrando. All rights reserved.</p>
+      <div class=" flex flex-row items-center justify-between p-8 ">
+
+        <LogoLZFneg estilus="w-10"/>
+        <p class="text-xs text-white">
+          © 2026 Laura Zaragoza Ferrando. All rights reserved.</p>
+
+      </div>
+
 
     </footer>
   </div>
