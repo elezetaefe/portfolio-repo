@@ -50,8 +50,8 @@ import LogoLZFneg from './components/logoLZFneg.vue';
 
       <div class=" flex flex-row items-center justify-between p-8 ">
 
-        <LogoLZFneg estilus="w-10"/>
-        <p class="text-xs text-white">
+        <LogoLZFneg estilo="w-10"/>
+        <p class="text-xs text-white/55">
           © 2026 Laura Zaragoza Ferrando. All rights reserved.</p>
 
       </div>

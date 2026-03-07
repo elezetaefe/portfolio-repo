@@ -1,7 +1,7 @@
 
 <script setup lang="ts">
     interface Props {
-        estilus: string
+        estilo: string
     }
 
     defineProps<Props>()
@@ -11,7 +11,7 @@
 <template>
    
     <svg 
-     :class="estilus"
+     :class="estilo"
     id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365.32 341.06">
         <defs>
             
@@ -27,5 +27,6 @@
 <style>
     .cls-1 {
         fill: #fff;
+        opacity: 0.5;
     }
 </style>
