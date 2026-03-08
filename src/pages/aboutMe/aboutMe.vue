@@ -11,7 +11,7 @@ import { ref } from 'vue';
 <template>
     <div class="flex flex-col lg:flex-row lg:justify-between md:items-center w-full max-w-[1400] md:mx-auto my-8 gap-8 px-5 md:px-20">
 
-        <div class="flex flex-col lg:flex-row w-full justify-between lg:max-w-[1400] gap-4 order-1 text-center p-6 mb-12">
+        <div class="flex flex-col lg:flex-row w-full justify-between lg:max-w-[1400] gap-4 order-1 text-center p-6 mb-9">
 
             <figure class="flex justify-start md:justify-center min-w-min max-w-xl lg:order-1 h-100 lg:h-125 mr-20">
             <!-- puedes poner pie de foto, texto alternativo etc. -->
@@ -52,9 +52,9 @@ import { ref } from 'vue';
 
     </div>
 
-    <div class=" w-full grid grid-rows-2 grid-cols-2 justify-around bg-amber-500">
+    <div class="flex w-full justify-around items-center mb-30">
 
-        <div class=" w-fit h-fit bg-amber-200">
+        <div class=" w-fit h-fit">
             <h2 class="text-2xl font-bold mb-3 text-[#5e904d]">
                 Studies
             </h2>
@@ -70,14 +70,14 @@ import { ref } from 'vue';
             </p>
         </div>
 
-        <div class="bg-amber-300 w-fit h-fit">
+        <div class="w-fit h-fit">
             <h2 class="text-2xl font-bold mb-3 text-[#5e904d]">
                 Skill set
             </h2>
 
-            <div class="flex flex-row">
-                <img src="/imagenes/habs-01.png" alt="" class="w-auto h-50 pr-1.5">
-                <img src="/imagenes/habs-02.png" alt="" class="w-auto h-50 pl-1.5">
+            <div class="flex flex-row w-fit">
+                <img src="/imagenes/habs-01.png" alt="" class="w-70 h-auto pr-1.5">
+                <img src="/imagenes/habs-02.png" alt="" class="w-70 h-auto pl-1.5">
             </div>
             
         </div>
