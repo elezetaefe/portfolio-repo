@@ -52,6 +52,39 @@ import { ref } from 'vue';
 
     </div>
 
+    <div class=" w-full grid grid-rows-2 grid-cols-2 justify-around bg-amber-500">
+
+        <div class=" w-fit h-fit bg-amber-200">
+            <h2 class="text-2xl font-bold mb-3 text-[#5e904d]">
+                Studies
+            </h2>
+
+            <p class="mb-1">
+                - Bachelor's Degree at UPV: Design and creative technologies (currently)
+            </p>
+            <p class="mb-1">
+                - Artistic "Bachillerato" (2022-2023)
+            </p>
+            <p class="">
+                - Compulsary school
+            </p>
+        </div>
+
+        <div class="bg-amber-300 w-fit h-fit">
+            <h2 class="text-2xl font-bold mb-3 text-[#5e904d]">
+                Skill set
+            </h2>
+
+            <div class="flex flex-row">
+                <img src="/imagenes/habs-01.png" alt="" class="w-auto h-50 pr-1.5">
+                <img src="/imagenes/habs-02.png" alt="" class="w-auto h-50 pl-1.5">
+            </div>
+            
+        </div>
+        
+
+    </div>
+
 
 </template>
 
