@@ -54,7 +54,7 @@ import { ref } from 'vue';
 
     <div class="flex w-full justify-around items-center mb-30">
 
-        <div class=" w-fit h-fit">
+        <div class=" w-fit h-fit mb-8">
             <h2 class="text-2xl font-bold mb-3 text-[#5e904d]">
                 Studies
             </h2>
@@ -71,7 +71,7 @@ import { ref } from 'vue';
         </div>
 
         <div class="w-fit h-fit">
-            <h2 class="text-2xl font-bold mb-3 text-[#5e904d]">
+            <h2 class="text-2xl font-bold text-[#5e904d]">
                 Skill set
             </h2>
 

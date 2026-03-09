@@ -6,8 +6,6 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from '@/components/ui/carousel'
 import Autoplay from 'embla-carousel-autoplay'
 
@@ -43,13 +41,13 @@ const props = withDefaults(defineProps<Props>(), {
         <CarouselContent>
             <CarouselItem v-for="(photo, index) in props.photos" :key="index">
                 <div class="p-1">
-                    <Card class="bg-gray-800 border-gray-800">
-                        <CardContent class="bg-gray-800 flex aspect-6/4 items-center justify-center p-6">
+                    <Card class="">
+                        <CardContent class=" flex  items-center justify-center p-6">
                                 
                             <img 
-                            :src="`${ props.basePath }/${ photo }.jpg`" 
+                            :src="`${ props.basePath }/${ photo }.png`" 
                             alt="`Image ${ index + 1 }`"
-                            class="w-full h-full object-cover"
+                            class="w-full h-full object-full"
                             >
                                 <!-- el alt es el texto alternativo de la imagen por si no la encuentra -->
 
@@ -59,8 +57,8 @@ const props = withDefaults(defineProps<Props>(), {
             </CarouselItem>
          </CarouselContent>
 
-        <CarouselPrevious class="bg-gray-900 text-white hidden md:flex justify-center items-center"/>
-        <CarouselNext class="bg-gray-900 text-white hidden md:flex justify-center items-center" />
+        <!-- <CarouselPrevious class="bg-white text-[#5e904d] border-3 border-[#5e904d] hidden md:flex justify-center items-center"/>
+        <CarouselNext class="bg-white text-[#5e904d] hidden md:flex justify-center items-center" /> -->
     </Carousel>
 
 </template>
