@@ -8,7 +8,7 @@ import LogoLZFneg from './components/logoLZFneg.vue';
 
 <template>
 
-  <div class="grid grid-rows-[auto_1fr_auto] min-h-screen">
+  <div class="grid grid-rows-[auto_1fr_auto] min-h-fit">
 
     <header class="bg-[#a6c89a] w-full ">
           <!-- header/barra de navegación -->

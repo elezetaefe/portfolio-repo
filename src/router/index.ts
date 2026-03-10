@@ -1,11 +1,11 @@
 import AboutMe from "@/pages/aboutMe/aboutMe.vue";
 import Detail from "@/pages/projects/Detail.vue";
 import HomeLZF from "@/pages/home/HomeLZF.vue";
-import Layout from "@/pages/projects/Layout.vue";
 import Projects from "@/pages/projects/Projects.vue";
 import Contact from "@/pages/contact/Contact.vue";
 
 import { createRouter, createWebHashHistory } from "vue-router";
+import Layout from "@/pages/projects/Layout.vue";
 
 export const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
