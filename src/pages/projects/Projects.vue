@@ -38,7 +38,7 @@ const listaProjects = computed(() => {
             @click="$router.push(`/projects/${ project.id }`)"
             >
 
-               <img :src="`/imagenes/todas/${project.imagen}`" alt="" />
+               <img :src="`/imagenes/todas/${project.imagen2}`" alt="" />
 
                <h2 class="font-bold text-2xl">{{ project.nom }}</h2>
             </CardContent>

@@ -6,7 +6,7 @@ import Button from '@/components/ui/button/Button.vue';
 import { ArrowDown } from 'lucide-vue-next';
 // import { scrollToSection } from '@/utils/ScrollToSection';
 
-const photos = ["img-01", "img-02", "img-03", "img-04", "img-05", "img-06", "img-07", "img-08"]; 
+const photos = ["img-09", "img-10", "img-11", "img-12", "img-13", "img-14", "img-05", "img-02"]; 
 
 </script>
 
@@ -37,7 +37,7 @@ const photos = ["img-01", "img-02", "img-03", "img-04", "img-05", "img-06", "img
             <RouterLink to="/projects">
                 <CarrusImaginum 
                 :photos="photos"
-                basePath="/imagenes/todas"
+                basePath="/imagenes/fotosCarrus"
                 :autoPlayDelay="2000"
                 class="w-auto h-auto"
                 />

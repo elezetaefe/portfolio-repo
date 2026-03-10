@@ -4,6 +4,7 @@
 import { ref } from 'vue';
 import { useRoute } from 'vue-router';
 import { projects, type Project } from './data';
+import ScrollArea from '@/components/ui/scroll-area/ScrollArea.vue';
 
 
 const route = useRoute()
@@ -46,9 +47,12 @@ const project = ref <Project | undefined>(
             </div>
         </div>
 
-        <figure class="figure-quote">
-            <img :src="`/imagenes/todas/${project.imagen}`" alt="" />
-        </figure>
+        
+         <ScrollArea class="h-125 w-240 rounded-md p-4">
+            <figure class="figure-quote">
+                <img :src="`/imagenes/todas/${project.imagen}`" alt="" />
+            </figure>
+        </ScrollArea>
     </div>
 </template>
 

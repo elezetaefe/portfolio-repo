@@ -4,6 +4,7 @@ export interface Project {
     id: number;
     nom: string;
     imagen: string;
+    imagen2: string;
     fecha: string;
     autor: string;
     brief: string;
@@ -15,6 +16,7 @@ export const projects: Project[] = [
         id: 0,
         nom: "kaoka",
         imagen: "img-03.png",
+        imagen2: "img-10.png",
         fecha: "4.11.2025",
         autor: "Mon Hernández R., Axel Martínez G., Laura Zaragoza F.",
         brief: "kaoka is a valencian chocolate brand just starting in the industry. They need a visual identity that reflects their embracing of traditional culture combined with a sense of modernity to appeal to younger costumers. They want us to design their packaging, logo and some instagrams stories.",
@@ -24,6 +26,7 @@ export const projects: Project[] = [
       id: 1,
         nom: "The Invisible Man",
         imagen: "img-01.png",
+        imagen2: "img-09.png",
         fecha: "1.03.2025",
         autor: "Laura Zaragoza F.",
         brief: "Teatro Flumen reached out as they needed a poster design for the theatre play 'The Invisible Man', an adaptation of the original novel.",
@@ -33,6 +36,7 @@ export const projects: Project[] = [
       id: 2,
         nom: "Doechii",
         imagen: "img-02.png",
+        imagen2: "img-02.png",
         fecha: "14.04.2025",
         autor: "Laura Zaragoza F.",
         brief: "I did this poster as a creative exercise to explore composition and illustration combined with typography",
@@ -42,6 +46,7 @@ export const projects: Project[] = [
       id: 3,
         nom: "Envidia",
         imagen: "img-04.png",
+        imagen2: "img-11.png",
         fecha: "13.02.2026",
         autor: "Laura Zaragoza F., Axel Martínez G.",
         brief: "The Envy poster is part of an advertising campaign for the play 'Siete', inspired by the Seven Deadly Sins.",
@@ -51,6 +56,7 @@ export const projects: Project[] = [
       id: 4,
         nom: "Ritmes del mar",
         imagen: "img-05.png",
+        imagen2: "img-05.png",
         fecha: "16.10.2026",
         autor: "Laura Zaragoza F.",
         brief: "Ritmes del mar (Rythms of the sea) is a valencian music summer festival celebrated at dusk. We had to come up with a promotional poster in 3h using only paper cut-outs",
@@ -60,6 +66,7 @@ export const projects: Project[] = [
       id: 5,
         nom: "CREFAD",
         imagen: "img-06.png",
+        imagen2: "img-12.png",
         fecha: "21.11.2025",
         autor: "Laura Zaragoza F., Mon Hernández R., Axel Martínez G.",
         brief: "The 'Congreso Iberamericano de Creación y Fabricación digital' (Iberoamerican Congress of Digital Creation and Fabrication) got in touch because it needed a promotional poster for their first ever event. It had to convey a technology and creativity at the same time. We could only use typography as a limitation",
@@ -69,6 +76,7 @@ export const projects: Project[] = [
       id: 6,
         nom: "36daysoftype",
         imagen: "img-07.png",
+        imagen2: "img-13.png",
         fecha: "28.10.2025",
         autor: "Laura Zaragoza F.",
         brief: "This was part of a Typography Class exercise, which consisted in doing our own version of the '36daysoftype challenge' (which went viral in instagram). We had total creative liberty to design as we pleased 3 glyphs",
@@ -78,6 +86,7 @@ export const projects: Project[] = [
       id: 7,
         nom: "A Room of One's Own",
         imagen: "img-08.png",
+        imagen2: "img-14.png",
         fecha: "15.12.2025",
         autor: "Laura Zaragoza F.",
         brief: "This was an Illustration Class' project. We had to do an illustrated version of a novel out of a list that was given to us. The elements designed were the cover, the endpapers and two double-paged spreads.",
