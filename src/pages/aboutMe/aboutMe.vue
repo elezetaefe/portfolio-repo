@@ -11,7 +11,7 @@ import { ref } from 'vue';
 <template>
     <div class="flex flex-col lg:flex-row lg:justify-between md:items-center w-full max-w-[1400] md:mx-auto my-8 gap-8 px-5 md:px-20">
 
-        <div class="flex flex-col lg:flex-row w-full justify-between lg:max-w-[1400] gap-4 order-1 text-center p-6 mb-9">
+        <div class="flex flex-col lg:flex-row w-full justify-between lg:max-w-[1400] gap-4 order-1 text-center p-6">
 
             <figure class="flex justify-start md:justify-center min-w-min max-w-xl lg:order-1 h-100 lg:h-125 mr-20">
             <!-- puedes poner pie de foto, texto alternativo etc. -->

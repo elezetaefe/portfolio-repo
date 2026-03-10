@@ -3,6 +3,7 @@
 <script lang="ts" setup>
 import CarrusImaginum from '@/components/CarrusImaginum.vue';
 import Button from '@/components/ui/button/Button.vue';
+import { ArrowDown } from 'lucide-vue-next';
 // import { scrollToSection } from '@/utils/ScrollToSection';
 
 const photos = ["img-01", "img-02", "img-03", "img-04", "img-05", "img-06", "img-07", "img-08"]; 
@@ -12,18 +13,20 @@ const photos = ["img-01", "img-02", "img-03", "img-04", "img-05", "img-06", "img
 <template>
     
     <div class="flex flex-col items-center justify-center mt-10 min-h-screen w-full gap-5">
-        <img src="/imagenes/avatar-lzf-verd-web.png" alt="" class="w-100 h-auto"> 
+        <img src="/imagenes/avatar-lzf-verd-web.png" alt="" class="w-80 h-auto"> 
                 
         <h1 class="text-center text-6xl font-bold mb-3">
             Hi! I'm 
             <a class="hover:font-normal hover:text-[#5e904d]">Laura</a>
         </h1>    
 
-        <Button variant="default" class="bg-[#5e904d] hover:bg-[#a6c89a] rounded-4xl mb-20">
+        <Button variant="default" class="bg-[#5e904d] hover:bg-[#a6c89a] rounded-4xl mb-7">
             <RouterLink to="/aboutMe">
             About me
             </RouterLink>
         </Button>
+
+        <ArrowDown class="w-10 h-10 animate-bounce"/>
 
         <div class="flex flex-row justify-around items-center gap-5 w-full mb-20">
             
