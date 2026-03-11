@@ -52,9 +52,9 @@ import { ref } from 'vue';
 
     </div>
 
-    <div class="flex w-full justify-around items-center mb-30">
+    <div class="flex flex-col lg:flex-row w-full justify-around items-center mb-30">
 
-        <div class=" w-fit h-fit mb-8">
+        <div class=" w-fit h-fit mb-8 px-10 lg:px-0">
             <h2 class="text-2xl font-bold mb-3 text-[#5e904d]">
                 Studies
             </h2>
@@ -70,14 +70,14 @@ import { ref } from 'vue';
             </p>
         </div>
 
-        <div class="w-fit h-fit">
-            <h2 class="text-2xl font-bold text-[#5e904d]">
+        <div class="w-fit h-fit px-10 lg:px-0">
+            <h2 class="text-2xl font-bold text-[#5e904d] mb-3 lg:mb-0">
                 Skill set
             </h2>
 
             <div class="flex flex-row w-fit">
-                <img src="/imagenes/habs-01.png" alt="" class="w-70 h-auto pr-1.5">
-                <img src="/imagenes/habs-02.png" alt="" class="w-70 h-auto pl-1.5">
+                <img src="/imagenes/habs-01.png" alt="" class="w-50 lg:w-70 h-auto pr-1.5">
+                <img src="/imagenes/habs-02.png" alt="" class="w-50 lg:w-70 h-auto pl-1.5">
             </div>
             
         </div>

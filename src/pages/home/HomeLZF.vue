@@ -12,8 +12,8 @@ const photos = ["img-09", "img-10", "img-11", "img-12", "img-13", "img-14", "img
 
 <template>
     
-    <div class="flex flex-col items-center justify-center mt-10 min-h-screen w-full gap-5">
-        <img src="/imagenes/avatar-lzf-verd-web.png" alt="" class="w-80 h-auto"> 
+    <div class="flex flex-col items-center justify-center mt-10 min-h-screen w-120 lg:w-full gap-5">
+        <img src="/imagenes/avatar-lzf-verd-web.png" alt="" class="w-50 lg:w-80 h-auto"> 
                 
         <h1 class="text-center text-6xl font-bold mb-3">
             Hi! I'm 
@@ -26,11 +26,11 @@ const photos = ["img-09", "img-10", "img-11", "img-12", "img-13", "img-14", "img
             </RouterLink>
         </Button>
 
-        <ArrowDown class="w-10 h-10 animate-bounce"/>
+        <ArrowDown class="w-10 h-10 animate-bounce mb-5 lg:mb-0"/>
 
-        <div class="flex flex-row justify-around items-center gap-5 w-full mb-20">
+        <div class="flex flex-col lg:flex-row justify-around items-center gap-5 w-full lg:mb-20">
             
-            <h1 class="text-5xl ml-20 text-[#5e904d]">
+            <h1 class="text-2xl lg:text-5xl lg:ml-20 text-[#5e904d]">
                 my projects
             </h1>
 
